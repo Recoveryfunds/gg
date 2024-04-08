@@ -1,0 +1,25 @@
+.terms{
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(50, 119, 198);
+    border-style: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.check {
+    margin-top: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

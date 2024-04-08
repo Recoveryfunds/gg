@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-size: 16px; /* Adjust font size for better readability */
+}
+
+.container {
+    width: 100%;
+    background-color: white;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.hamlogo{
+    width: 30px;
+}
+
+.hamburger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    background-color: black;
+    padding: 10px;
+}
+.calenderp{
+    color: white;
+    font-size: 12px;
+}
+.key{
+    color: white;
+    font-size: 12px;
+}
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.moneylogo {
+    width: 50px; /* Adjust image size for smaller screens */
+    border-radius: 50%; /* Make the logo round */
+}
+
+.amount,
+.key,
+.calenderp,
+.eaSyLinks,
+.logosp {
+    margin-left: 10px; /* Adjust margins */
+}
+
+.dolls {
+    font-size: 30px; /* Adjust font size */
+    margin-top: -20px;
+}
+
+.arsh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    border-bottom: solid;
+    margin-top: 10px; /* Adjust margin */
+    padding-bottom: 10px; /* Add padding for better spacing */
+}
+
+.calender {
+    width: 15px;
+    margin-right: 3px;
+}
+
+.logos,
+.logosp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    margin-top: 10px; /* Adjust margin */
+}
+
+.logosp p {
+    font-size: 14px; /* Adjust font size */
+    font-weight: bold;
+}
+
+/* Adjust margins for individual logo items if needed */
+.binance {
+    font-weight: bold;
+}
+
+.metamask {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.trust {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.cards {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+select {
+    border-style: none;
+    background-color: transparent;
+}
+
+.logos img {
+    width: 30px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+body {
+    margin: 0;
+    font-size: 14px; /* Adjust base font size for better readability */
+}
+
+.recoveredhead,
+.amount,
+.key,
+.calenderp,
+.eaSyLinks,
+.logosp p {
+    margin-left: 5px; /* Adjust margins */
+    margin-right: 5px; /* Adjust margins */
+    font-size: 18px; /* Adjust font size for headers and paragraphs */
+}
+
+.dolls {
+    font-size: 36px; /* Adjust font size for larger headings */
+}
+
+.binance,
+.metamask,
+.trust,
+.cards {
+    font-size: 16px; /* Adjust font size for logos */
+    font-weight: bold;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.logos div {
+    text-align: center; /* Center align the content */
+    flex-basis: 25%; /* Set the width of each logo container */
+}
+
+.logosp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logosp p {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center; /* Center align the text */
+    width: 25%; /* Set the width of each paragraph */
+}
+.recoveredhead {
+    color: white; /* Set the color of "Recovered Funds" to white */
+}
+
+.amount {
+    margin-left: 0px;
+    color: red; /* Set the color of "Software Used: KeyPass - Inactive" to red */
+}
+
+.arsh {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+    margin-top: -35px;
+    background-color: grey; /* Set the background color of the .arsh div to grey */
+}
+.bottomdiv{
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Align the bottom div to the left */
+    right: 0; /* Align the bottom div to the right */
+    display: flex;
+    justify-content: space-around; /* Distribute icons with even space between them */
+    align-items: center; /* Center align the icons vertically */
+    background-color: white; /* Set background color of the bottom div */
+    padding: 10px; /* Add padding for better spacing */
+    
+}
+
+.icon{
+    width: 30px;
+}
+
